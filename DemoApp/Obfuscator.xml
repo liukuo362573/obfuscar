@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<Obfuscator>
+  <Var name="InPath" value="E:\Crack\CrackApp\PC\SourceCode\obfuscar\DemoApp\bin\Debug\" />
+  <Var name="OutPath" value="E:\Crack\CrackApp\PC\SourceCode\obfuscar\DemoApp\bin\Debug\Obfuscator\" />
+
+  <Module file="$(InPath)\DemoApp.exe" >
+    <SkipType name="*AnonymousType*" skipProperties="true" skipMethods="true" skipFields="true" skipEvents="true" skipStringHiding="true" />
+    <ForceNamespace name="DemoApp.Util*" />
+  </Module>
+  
+</Obfuscator>
