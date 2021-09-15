@@ -3,6 +3,8 @@
   <Var name="InPath" value="E:\Crack\CrackApp\PC\SourceCode\obfuscar\DemoApp\bin\Debug\" />
   <Var name="OutPath" value="E:\Crack\CrackApp\PC\SourceCode\obfuscar\DemoApp\bin\Debug\Obfuscator\" />
 
+  <Var name="ReuseNames" value="false" />
+  
   <Module file="$(InPath)\DemoApp.exe" >
     <SkipType name="*AnonymousType*" skipProperties="true" skipMethods="true" skipFields="true" skipEvents="true" skipStringHiding="true" />
     <ForceNamespace name="DemoApp.Util*" />
